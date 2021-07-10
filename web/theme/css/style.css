@@ -1,0 +1,33 @@
+h3 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+a {
+    color: #000000;
+}
+
+.sidebar {
+    background-color: #fffefe;
+}
+
+.sidebar a {
+    color: rgba(0, 0, 0, 0.8) !important;
+}
+
+.sidebar a.active {
+    color: rgba(0, 0, 0, 0.8) !important;
+    background-color: #eaecf4 !important;
+}
+
+.sidebar .bg-white {
+    background-color: #f7f7f7 !important
+}
+
+input:checked + .slider {
+    background-color: #1cc88a;
+}
+
+.card {
+    border: none;
+}

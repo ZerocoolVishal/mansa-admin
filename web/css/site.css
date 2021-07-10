@@ -1,0 +1,102 @@
+.brand-color {
+    color: #6f9330 !important;
+}
+
+.dark-brand {
+    color: #162101 !important;
+}
+
+.header-button span, .wsmenu > .wsmenu-list > li.header-btn a {
+    background-color: #6f9330 !important;
+    border-color: #6f9330 !important;
+}
+
+.btn-brand {
+    color: #fff;
+    background-color: #6f9330;
+    border-color: #6f9330;
+}
+
+.brand-hover:hover {
+    color: #fff;
+    background-color: #81aa35;
+    border-color: #6f9330;
+}
+
+.breadcrumb-item a:hover {
+    color: #81aa35;
+}
+
+.sbox-3-icon {
+    background-color: #6f9330 !important;
+}
+
+.doctor-1 .item-overlay {
+    background: rgba(111, 147, 48, 0.5);
+}
+
+.wsmenu >.wsmenu-list > li:hover > a {
+    color: #6f9330;
+}
+
+.bg-brand {
+    background-color: #81aa35;
+}
+
+.nav-pills .nav-link.active, .nav-pills .nav-link.active:hover {
+    background-color: #81aa35;
+    border-color: #81aa35;
+    color: #fff;
+}
+
+.abox-4-table.blue-table {
+    background-color: #81aa35;
+    border: 1px solid #81aa35;
+    color: #fff;
+    box-shadow: none;
+}
+
+.grid-view {
+    overflow-x: auto;
+}
+
+#loader {
+    width: 380px!important;
+    height: 175px!important;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin-left: -128px;
+    margin-top: -19px;
+}
+
+.loader-inner {
+    width: 100% !important;
+    height: 100% !important;
+    background-repeat: no-repeat;
+}
+
+.hero-widget {
+    padding: 0px 0;
+}
+
+#breadcrumb {
+    background-image: url("../images/tittle-banner.jpg");
+    background-position: center center;
+}
+
+#footer-2 {
+    background-color: #f1f1f1;
+}
+
+@media (max-width: 767px) {
+    .wsmobileheader .smllogo {
+        margin-top: 0px !important;
+    }
+}
+@media only screen and (max-width: 991px) {
+    .wsmobileheader .smllogo {
+        display: inline-block;
+        margin-top: 0px !important;
+    }
+}

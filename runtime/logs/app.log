@@ -1,0 +1,210 @@
+2021-07-10 14:50:57 [::1][-][-][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "website-theme/images/bg01.jpg". in /Applications/MAMP/htdocs/hospital/vendor/yiisoft/yii2/base/Module.php:537
+Stack trace:
+#0 /Applications/MAMP/htdocs/hospital/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('website-theme/i...', Array)
+#1 /Applications/MAMP/htdocs/hospital/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /Applications/MAMP/htdocs/hospital/web/index.php(12): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in /Applications/MAMP/htdocs/hospital/vendor/yiisoft/yii2/web/Application.php:115
+Stack trace:
+#0 /Applications/MAMP/htdocs/hospital/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /Applications/MAMP/htdocs/hospital/web/index.php(12): yii\base\Application->run()
+#2 {main}
+2021-07-10 14:50:57 [::1][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_scid' => 'cf88cd94-7062-406b-aa14-ca717aa19190'
+    '_ga' => 'GA1.1.539916271.1619683011'
+    '_hjid' => 'e26bc0d3-852a-4483-9664-d35ef0a6d892'
+    '_sctr' => '1|1619634600000'
+    '_ga_X8WN5CDNBC' => 'GS1.1.1619797275.10.0.1619797275.0'
+    '_ga_Q9VXTGC49E' => 'GS1.1.1619797276.128.0.1619797276.0'
+    '_ga_EC2J6ZCRJ4' => 'GS1.1.1624989266.31.0.1624989266.0'
+    '_csrf' => 'f172f2c380cb1145a6a066325d98097a9d1c3b21e0b2d0f1d9c436d2bab92199a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"wuM4CK1dK4xxzlHXozyw2Bn0-5kDyOof\";}'
+]
+
+$_SERVER = [
+    'REDIRECT_REDIRECT_STATUS' => '200'
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_SEC_CH_UA' => '\" Not;A Brand\";v=\"99\", \"Google Chrome\";v=\"91\", \"Chromium\";v=\"91\"'
+    'HTTP_SEC_CH_UA_MOBILE' => '?0'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.114 Safari/537.36'
+    'HTTP_ACCEPT' => 'image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8'
+    'HTTP_SEC_FETCH_SITE' => 'same-origin'
+    'HTTP_SEC_FETCH_MODE' => 'no-cors'
+    'HTTP_SEC_FETCH_DEST' => 'image'
+    'HTTP_REFERER' => 'http://localhost/hospital/website-theme/css/menu.css'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.9,ar;q=0.8'
+    'HTTP_COOKIE' => '_scid=cf88cd94-7062-406b-aa14-ca717aa19190; _ga=GA1.1.539916271.1619683011; _hjid=e26bc0d3-852a-4483-9664-d35ef0a6d892; _sctr=1|1619634600000; _ga_X8WN5CDNBC=GS1.1.1619797275.10.0.1619797275.0; _ga_Q9VXTGC49E=GS1.1.1619797276.128.0.1619797276.0; _ga_EC2J6ZCRJ4=GS1.1.1624989266.31.0.1624989266.0; _csrf=f172f2c380cb1145a6a066325d98097a9d1c3b21e0b2d0f1d9c436d2bab92199a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22wuM4CK1dK4xxzlHXozyw2Bn0-5kDyOof%22%3B%7D'
+    'PATH' => '/usr/bin:/bin:/usr/sbin:/sbin'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.2.34 (Unix) mod_wsgi/3.5 Python/2.7.13 PHP/7.3.9 mod_ssl/2.2.34 OpenSSL/1.0.2o DAV/2 mod_fastcgi/mod_fastcgi-SNAP-0910052141 mod_perl/2.0.11 Perl/v5.24.0'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => '/Applications/MAMP/htdocs'
+    'SERVER_ADMIN' => 'you@example.com'
+    'SCRIPT_FILENAME' => '/Applications/MAMP/htdocs/hospital/web/index.php'
+    'REMOTE_PORT' => '50402'
+    'REDIRECT_URL' => '/hospital/web/website-theme/images/bg01.jpg'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/hospital/website-theme/images/bg01.jpg'
+    'SCRIPT_NAME' => '/hospital/web/index.php'
+    'PHP_SELF' => '/hospital/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1625928657.124
+    'REQUEST_TIME' => 1625928657
+    'argv' => []
+    'argc' => 0
+]
+2021-07-10 14:51:37 [::1][-][-][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "website-theme/images/bg01.jpg". in /Applications/MAMP/htdocs/hospital/vendor/yiisoft/yii2/base/Module.php:537
+Stack trace:
+#0 /Applications/MAMP/htdocs/hospital/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('website-theme/i...', Array)
+#1 /Applications/MAMP/htdocs/hospital/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /Applications/MAMP/htdocs/hospital/web/index.php(12): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in /Applications/MAMP/htdocs/hospital/vendor/yiisoft/yii2/web/Application.php:115
+Stack trace:
+#0 /Applications/MAMP/htdocs/hospital/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /Applications/MAMP/htdocs/hospital/web/index.php(12): yii\base\Application->run()
+#2 {main}
+2021-07-10 14:51:37 [::1][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_scid' => 'cf88cd94-7062-406b-aa14-ca717aa19190'
+    '_ga' => 'GA1.1.539916271.1619683011'
+    '_hjid' => 'e26bc0d3-852a-4483-9664-d35ef0a6d892'
+    '_sctr' => '1|1619634600000'
+    '_ga_X8WN5CDNBC' => 'GS1.1.1619797275.10.0.1619797275.0'
+    '_ga_Q9VXTGC49E' => 'GS1.1.1619797276.128.0.1619797276.0'
+    '_ga_EC2J6ZCRJ4' => 'GS1.1.1624989266.31.0.1624989266.0'
+    '_csrf' => 'f172f2c380cb1145a6a066325d98097a9d1c3b21e0b2d0f1d9c436d2bab92199a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"wuM4CK1dK4xxzlHXozyw2Bn0-5kDyOof\";}'
+    '_gid' => 'GA1.1.739581702.1625928659'
+    '_gat_gtag_UA_180265196_2' => '1'
+]
+
+$_SERVER = [
+    'REDIRECT_REDIRECT_STATUS' => '200'
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_SEC_CH_UA' => '\" Not;A Brand\";v=\"99\", \"Google Chrome\";v=\"91\", \"Chromium\";v=\"91\"'
+    'HTTP_SEC_CH_UA_MOBILE' => '?0'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.114 Safari/537.36'
+    'HTTP_ACCEPT' => 'image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8'
+    'HTTP_SEC_FETCH_SITE' => 'same-origin'
+    'HTTP_SEC_FETCH_MODE' => 'no-cors'
+    'HTTP_SEC_FETCH_DEST' => 'image'
+    'HTTP_REFERER' => 'http://localhost/hospital/website-theme/css/menu.css'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.9,ar;q=0.8'
+    'HTTP_COOKIE' => '_scid=cf88cd94-7062-406b-aa14-ca717aa19190; _ga=GA1.1.539916271.1619683011; _hjid=e26bc0d3-852a-4483-9664-d35ef0a6d892; _sctr=1|1619634600000; _ga_X8WN5CDNBC=GS1.1.1619797275.10.0.1619797275.0; _ga_Q9VXTGC49E=GS1.1.1619797276.128.0.1619797276.0; _ga_EC2J6ZCRJ4=GS1.1.1624989266.31.0.1624989266.0; _csrf=f172f2c380cb1145a6a066325d98097a9d1c3b21e0b2d0f1d9c436d2bab92199a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22wuM4CK1dK4xxzlHXozyw2Bn0-5kDyOof%22%3B%7D; _gid=GA1.1.739581702.1625928659; _gat_gtag_UA_180265196_2=1'
+    'PATH' => '/usr/bin:/bin:/usr/sbin:/sbin'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.2.34 (Unix) mod_wsgi/3.5 Python/2.7.13 PHP/7.3.9 mod_ssl/2.2.34 OpenSSL/1.0.2o DAV/2 mod_fastcgi/mod_fastcgi-SNAP-0910052141 mod_perl/2.0.11 Perl/v5.24.0'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => '/Applications/MAMP/htdocs'
+    'SERVER_ADMIN' => 'you@example.com'
+    'SCRIPT_FILENAME' => '/Applications/MAMP/htdocs/hospital/web/index.php'
+    'REMOTE_PORT' => '50429'
+    'REDIRECT_URL' => '/hospital/web/website-theme/images/bg01.jpg'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/hospital/website-theme/images/bg01.jpg'
+    'SCRIPT_NAME' => '/hospital/web/index.php'
+    'PHP_SELF' => '/hospital/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1625928697.609
+    'REQUEST_TIME' => 1625928697
+    'argv' => []
+    'argc' => 0
+]
+2021-07-10 14:56:43 [::1][-][-][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "website-theme/images/bg01.jpg". in /Applications/MAMP/htdocs/mansa/vendor/yiisoft/yii2/base/Module.php:537
+Stack trace:
+#0 /Applications/MAMP/htdocs/mansa/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('website-theme/i...', Array)
+#1 /Applications/MAMP/htdocs/mansa/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /Applications/MAMP/htdocs/mansa/web/index.php(12): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in /Applications/MAMP/htdocs/mansa/vendor/yiisoft/yii2/web/Application.php:115
+Stack trace:
+#0 /Applications/MAMP/htdocs/mansa/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /Applications/MAMP/htdocs/mansa/web/index.php(12): yii\base\Application->run()
+#2 {main}
+2021-07-10 14:56:43 [::1][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_scid' => 'cf88cd94-7062-406b-aa14-ca717aa19190'
+    '_ga' => 'GA1.1.539916271.1619683011'
+    '_hjid' => 'e26bc0d3-852a-4483-9664-d35ef0a6d892'
+    '_sctr' => '1|1619634600000'
+    '_ga_X8WN5CDNBC' => 'GS1.1.1619797275.10.0.1619797275.0'
+    '_ga_Q9VXTGC49E' => 'GS1.1.1619797276.128.0.1619797276.0'
+    '_ga_EC2J6ZCRJ4' => 'GS1.1.1624989266.31.0.1624989266.0'
+    '_csrf' => 'f172f2c380cb1145a6a066325d98097a9d1c3b21e0b2d0f1d9c436d2bab92199a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"wuM4CK1dK4xxzlHXozyw2Bn0-5kDyOof\";}'
+    '_gid' => 'GA1.1.739581702.1625928659'
+]
+
+$_SERVER = [
+    'REDIRECT_REDIRECT_STATUS' => '200'
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_SEC_CH_UA' => '\" Not;A Brand\";v=\"99\", \"Google Chrome\";v=\"91\", \"Chromium\";v=\"91\"'
+    'HTTP_SEC_CH_UA_MOBILE' => '?0'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.114 Safari/537.36'
+    'HTTP_ACCEPT' => 'image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8'
+    'HTTP_SEC_FETCH_SITE' => 'same-origin'
+    'HTTP_SEC_FETCH_MODE' => 'no-cors'
+    'HTTP_SEC_FETCH_DEST' => 'image'
+    'HTTP_REFERER' => 'http://localhost/mansa/website-theme/css/menu.css'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.9,ar;q=0.8'
+    'HTTP_COOKIE' => '_scid=cf88cd94-7062-406b-aa14-ca717aa19190; _ga=GA1.1.539916271.1619683011; _hjid=e26bc0d3-852a-4483-9664-d35ef0a6d892; _sctr=1|1619634600000; _ga_X8WN5CDNBC=GS1.1.1619797275.10.0.1619797275.0; _ga_Q9VXTGC49E=GS1.1.1619797276.128.0.1619797276.0; _ga_EC2J6ZCRJ4=GS1.1.1624989266.31.0.1624989266.0; _csrf=f172f2c380cb1145a6a066325d98097a9d1c3b21e0b2d0f1d9c436d2bab92199a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22wuM4CK1dK4xxzlHXozyw2Bn0-5kDyOof%22%3B%7D; _gid=GA1.1.739581702.1625928659'
+    'PATH' => '/usr/bin:/bin:/usr/sbin:/sbin'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.2.34 (Unix) mod_wsgi/3.5 Python/2.7.13 PHP/7.3.9 mod_ssl/2.2.34 OpenSSL/1.0.2o DAV/2 mod_fastcgi/mod_fastcgi-SNAP-0910052141 mod_perl/2.0.11 Perl/v5.24.0'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => '/Applications/MAMP/htdocs'
+    'SERVER_ADMIN' => 'you@example.com'
+    'SCRIPT_FILENAME' => '/Applications/MAMP/htdocs/mansa/web/index.php'
+    'REMOTE_PORT' => '50510'
+    'REDIRECT_URL' => '/mansa/web/website-theme/images/bg01.jpg'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/mansa/website-theme/images/bg01.jpg'
+    'SCRIPT_NAME' => '/mansa/web/index.php'
+    'PHP_SELF' => '/mansa/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1625929003.781
+    'REQUEST_TIME' => 1625929003
+    'argv' => []
+    'argc' => 0
+]
