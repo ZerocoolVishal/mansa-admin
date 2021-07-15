@@ -3,143 +3,79 @@
 use yii\helpers\Html;
 
 ?>
-<!-- FOOTER-2
-============================================= -->
-<footer id="footer-2" class="wide-40 footer division">
-    <div class="container">
+<!-- ======= Footer ======= -->
+<footer id="footer">
 
-
-        <!-- FOOTER CONTENT -->
-        <div class="row">
-
-
-            <!-- FOOTER INFO -->
-            <div class="col-md-6 col-lg-4">
-                <div class="footer-info mb-40">
-
-                    <!-- Footer Logo -->
-                    <!-- For Retina Ready displays take a image with double the amount of pixels that your image will be displayed (e.g 360 x 80  pixels) -->
-                    <?= Html::img('@web/images/logo.png', ['width' => '250', 'alt' => 'footer-logo']) ?>
-
-                    <!-- Email -->
-                    <p class="foo-email">E: <a href="mailto:mannsparshpsy@gmail.com">mannsparshpsy@gmail.com</a></p>
-
-                    <!-- Phone -->
-                    <p>P: <?= Yii::$app->params['landline_no'] ?>, <?= Yii::$app->params['mobile_no'] ?></p>
-
-                    <!-- Social Icons -->
-                    <div class="footer-socials-links mt-20">
-                        <ul class="foo-socials text-center clearfix">
-
-                            <li><a href="#" class="ico-facebook"><i class="fab fa-facebook-f"></i></a></li>
-                            <li><a href="#" class="ico-twitter"><i class="fab fa-twitter"></i></a></li>
-                            <li><a href="#" class="ico-google-plus"><i class="fab fa-google-plus-g"></i></a></li>
-                            <li><a href="#" class="ico-tumblr"><i class="fab fa-tumblr"></i></a></li>
-
-                            <!--
-                            <li><a href="#" class="ico-behance"><i class="fab fa-behance"></i></a></li>
-                            <li><a href="#" class="ico-dribbble"><i class="fab fa-dribbble"></i></a></li>
-                            <li><a href="#" class="ico-instagram"><i class="fab fa-instagram"></i></a></li>
-                            <li><a href="#" class="ico-linkedin"><i class="fab fa-linkedin-in"></i></a></li>
-                            <li><a href="#" class="ico-pinterest"><i class="fab fa-pinterest-p"></i></a></li>
-                            <li><a href="#" class="ico-youtube"><i class="fab fa-youtube"></i></a></li>
-                            <li><a href="#" class="ico-vk"><i class="fab fa-vk"></i></a></li>
-                            <li><a href="#" class="ico-yelp"><i class="fab fa-yelp"></i></a></li>
-                            <li><a href="#" class="ico-yahoo"><i class="fab fa-yahoo"></i></a></li>
-                            -->
-
-                        </ul>
-                    </div>
-
-                </div>
-            </div>	<!-- END FOOTER INFO -->
-
-            <div class="col-md-6 col-lg-3"></div>
-
-            <!-- FOOTER PRODUCTS LINKS -->
-            <div class="col-md-6 col-lg-2 offset-lg-1">
-                <div class="footer-links mb-40">
-
-                    <!-- Title -->
-                    <h5 class="h5-xs">Discovery</h5>
-
-                    <!-- Footer List -->
-                    <ul class="clearfix">
-                        <li><a href="#">Privacy Policy</a></li>
-                        <li><?= Html::a('FAQs', ['site/faq']) ?></li>
-                    </ul>
-
-                </div>
-            </div>
-
-
-            <!-- FOOTER COMPANY LINKS -->
-            <div class="col-md-6 col-lg-2">
-                <div class="footer-links mb-40">
-
-                    <!-- Title -->
-                    <h5 class="h5-xs">About Hospital</h5>
-
-                    <!-- Footer Links -->
-                    <ul class="clearfix">
-                        <li><?= Html::a('About Hospital', ['site/about-us']) ?></li>
-                        <li><?= Html::a('Contact us', ['site/contact-us']) ?></li>
-                        <li><?= Html::a('Press & Media', ['site/blogs']) ?></li>
-                        <li><?= Html::a('Our Blog', ['site/blogs']) ?></li>
-                    </ul>
-
-                </div>
-            </div>
-
-
-            <!-- FOOTER NEWSLETTER FORM -->
-            <div class="col-md-6 col-lg-3 d-none">
-                <div class="footer-form mb-20">
-
-                    <!-- Title -->
-                    <h5 class="h5-xs">Subscribe Us:</h5>
-
-                    <!-- Text -->
-                    <p class="p-sm m-bottom-20">Stay up to date with our latest news, updates and our new products</p>
-
-                    <!-- Newsletter Form Input -->
-                    <form class="newsletter-form">
-
-                        <div class="input-group">
-                            <input type="email" class="form-control" placeholder="Email Address" required id="s-email">
-                            <span class="input-group-btn">
-                                <button type="submit" class="btn">
-                                    <i class="far fa-envelope"></i>
-                                </button>
-						    </span>
-                        </div>
-
-                        <!-- Newsletter Form Notification -->
-                        <label for="s-email" class="form-notification"></label>
-
-                    </form>
-
-                </div>
-            </div>	<!-- END FOOTER NEWSLETTER FORM -->
-
-
-        </div>	  <!-- END FOOTER CONTENT -->
-
-
-        <!-- FOOTER COPYRIGHT -->
-        <div class="bottom-footer">
+    <div class="footer-top">
+        <div class="container">
             <div class="row">
-                <div class="col-md-12">
-                    <p class="footer-copyright">
-                        &copy; <?= date('Y') ?> <span>Mannsparsh Neuropsychiatric Center and Nursing Home</span>. All Rights Reserved
-                        • Developed by <span><?= Html::a('Bhosle Techsol Pvt Ltd.', 'http://bhosletechsol.com/') ?></span>
+
+                <div class="col-lg-3 col-md-6 footer-contact">
+                    <h3>Flexor</h3>
+                    <p>
+                        A108 Adam Street <br>
+                        New York, NY 535022<br>
+                        United States <br><br>
+                        <strong>Phone:</strong> +1 5589 55488 55<br>
+                        <strong>Email:</strong> info@example.com<br>
                     </p>
                 </div>
+
+                <div class="col-lg-2 col-md-6 footer-links">
+                    <h4>Useful Links</h4>
+                    <ul>
+                        <li><i class="bx bx-chevron-right"></i> <a href="#">Home</a></li>
+                        <li><i class="bx bx-chevron-right"></i> <a href="#">About us</a></li>
+                        <li><i class="bx bx-chevron-right"></i> <a href="#">Services</a></li>
+                        <li><i class="bx bx-chevron-right"></i> <a href="#">Terms of service</a></li>
+                        <li><i class="bx bx-chevron-right"></i> <a href="#">Privacy policy</a></li>
+                    </ul>
+                </div>
+
+                <div class="col-lg-3 col-md-6 footer-links">
+                    <h4>Our Services</h4>
+                    <ul>
+                        <li><i class="bx bx-chevron-right"></i> <a href="#">Web Design</a></li>
+                        <li><i class="bx bx-chevron-right"></i> <a href="#">Web Development</a></li>
+                        <li><i class="bx bx-chevron-right"></i> <a href="#">Product Management</a></li>
+                        <li><i class="bx bx-chevron-right"></i> <a href="#">Marketing</a></li>
+                        <li><i class="bx bx-chevron-right"></i> <a href="#">Graphic Design</a></li>
+                    </ul>
+                </div>
+
+                <div class="col-lg-4 col-md-6 footer-newsletter">
+                    <h4>Join Our Newsletter</h4>
+                    <p>Tamen quem nulla quae legam multos aute sint culpa legam noster magna</p>
+                    <form action="" method="post">
+                        <input type="email" name="email"><input type="submit" value="Subscribe">
+                    </form>
+                </div>
+
             </div>
         </div>
-
-
     </div>
-    <!-- End container -->
+
+    <div class="container d-lg-flex py-4">
+
+        <div class="mr-lg-auto text-center text-lg-left">
+            <div class="copyright">
+                &copy; Copyright <strong><span>Flexor</span></strong>. All Rights Reserved
+            </div>
+            <div class="credits">
+                <!-- All the links in the footer should remain intact. -->
+                <!-- You can delete the links only if you purchased the pro version. -->
+                <!-- Licensing information: https://bootstrapmade.com/license/ -->
+                <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/flexor-free-multipurpose-bootstrap-template/ -->
+                Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+            </div>
+        </div>
+        <div class="social-links text-center text-lg-right pt-3 pt-lg-0">
+            <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>
+            <a href="#" class="facebook"><i class="bx bxl-facebook"></i></a>
+            <a href="#" class="instagram"><i class="bx bxl-instagram"></i></a>
+            <a href="#" class="google-plus"><i class="bx bxl-skype"></i></a>
+            <a href="#" class="linkedin"><i class="bx bxl-linkedin"></i></a>
+        </div>
+    </div>
 </footer>
-<!-- END FOOTER-2 -->
+<!-- End Footer -->
