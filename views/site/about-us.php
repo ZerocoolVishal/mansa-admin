@@ -8,12 +8,6 @@ $this->title = 'About Us';
 
 ?>
 
-<?= $this->render('../layouts/website/_breadcrumb', [
-    'list' => [
-        ['title' => 'About us', 'active' => true]
-    ]
-]) ?>
-
 <!-- ABOUT US -->
 <?= $this->render('../layouts/website/_info') ?>
 

@@ -10,13 +10,6 @@ use yii\helpers\Html;
 
 ?>
 
-<?= $this->render('../layouts/website/_breadcrumb', [
-    'list' => [
-        ['title' => 'Our Blog', 'url' => 'site/blogs', 'active' => false],
-        ['title' => $model->title, 'active' => true]
-    ]
-]) ?>
-
 <!-- BLOG PAGE CONTENT
 ============================================= -->
 <div id="single-blog-page" class="wide-100 blog-page-section division">

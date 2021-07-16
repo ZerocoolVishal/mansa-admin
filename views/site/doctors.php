@@ -10,12 +10,6 @@ $this->title = "Meet the Doctor";
 
 ?>
 
-<?= $this->render('../layouts/website/_breadcrumb', [
-        'list' => [
-                ['title' => 'Meet the Doctors', 'active' => true]
-        ]
-]) ?>
-
 <!-- DOCTORS-3
 ============================================= -->
 <section id="doctors-3" class="wide-60 doctors-section division">

@@ -11,13 +11,6 @@ $this->title = $model->name;
 
 ?>
 
-<?= $this->render('../layouts/website/_breadcrumb', [
-    'list' => [
-        ['title' => 'Doctors', 'url' => 'site/doctors', 'active' => false],
-        ['title' => $model->name, 'active' => true]
-    ]
-]) ?>
-
 <!-- DOCTOR-2 DETAILS -->
 <section id="doctor-2-details" class="wide-70 doctor-details-section division">
     <div class="container">
