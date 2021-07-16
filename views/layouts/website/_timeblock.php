@@ -1,14 +1,12 @@
 <!-- IMAGE BLOCK -->
 <div class="col-lg-4">
-    <div class="abox-4 abox-4-table blue-table mb-40 wow fadeInUp" data-wow-delay="0.6s">
+    <div class="abox-4 abox-4-table blue-table mb-40 wow fadeInUp p-4" data-wow-delay="0.6s">
 
         <!-- Title -->
         <h5 class="h5-sm">Working Time</h5>
 
         <!-- Text -->
-        <p>Address: 2/3, B wing, ground floor, Mitali height, Near KDMC D ward and Gurudham hotel , Katemanivali Naka,Pune link road, Kalyan east
-
-        </p>
+        <p><?= Yii::$app->params['address'] ?></p>
 
         <!-- Table -->
         <table class="table">

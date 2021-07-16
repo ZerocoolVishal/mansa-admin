@@ -13,6 +13,3 @@ $this->title = 'About Us';
 
 <!-- FEATURED DOCTORS -->
 <?= $this->render('../layouts/website/_doctors', ['class' => 'bg-lightgrey']) ?>
-
-<!-- EMERGENCY -->
-<?= $this->render('../layouts/website/_banner2') ?>

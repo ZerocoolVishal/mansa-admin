@@ -114,6 +114,10 @@ $this->title = 'Home';
     </section>
     <!-- End About Section -->
 
+    <!-- ======= Team Section ======= -->
+    <?= $this->render('../layouts/website/_doctors') ?>
+    <!-- End Team Section -->
+
     <!-- ======= Services Section ======= -->
     <section id="services" class="services section-bg">
         <div class="container">
@@ -223,10 +227,6 @@ $this->title = 'Home';
     <!-- ======= Testimonials Section ======= -->
     <?= $this->render('../layouts/website/_testimonies') ?>
     <!-- End Testimonials Section -->
-
-    <!-- ======= Team Section ======= -->
-    <?= $this->render('../layouts/website/_doctors') ?>
-    <!-- End Team Section -->
 
     <!-- ======= F.A.Q Section ======= -->
     <!-- End F.A.Q Section -->

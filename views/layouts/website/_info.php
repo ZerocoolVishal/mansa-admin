@@ -5,7 +5,7 @@ use yii\helpers\Html;
 ?>
 <!-- INFO-2
 ============================================= -->
-<section id="info-2" class="wide-60 info-section division">
+<section id="info-2" class="wide-60 info-section division section-bg">
     <div class="container">
         <div class="row d-flex align-items-center">
 
@@ -15,7 +15,7 @@ use yii\helpers\Html;
                 <div class="txt-block pc-30 mb-40 wow fadeInUp" data-wow-delay="0.4s">
 
                     <!-- Section ID -->
-                    <span class="section-id brand-color">ABOUT US</span>
+                    <span class="section-id">ABOUT US</span>
 
                     <!-- Title -->
                     <h3 class="h3-md dark-brand">Mannsparsh Neuropsychiatric Center and Nursing Home</h3>
