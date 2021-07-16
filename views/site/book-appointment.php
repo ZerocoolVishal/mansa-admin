@@ -3,12 +3,6 @@
 use yii\bootstrap4\ActiveForm;
 use yii\bootstrap4\Html; ?>
 
-<?= $this->render('../layouts/website/_breadcrumb', [
-    'list' => [
-        ['title' => 'Appointment', 'active' => true]
-    ]
-]) ?>
-
 <style>
     .invalid-feedback {
         margin-bottom: 20px;
@@ -97,14 +91,12 @@ use yii\bootstrap4\Html; ?>
 
 
                 <!-- SIDEBAR TABLE -->
-                <div class="sidebar-table abox-4-table blue-table sidebar-div mb-50">
+                <div class="sidebar-table abox-4-table blue-table sidebar-div mb-50 p-4">
                     <!-- Title -->
                     <h5 class="h5-sm">Working Time</h5>
 
                     <!-- Text -->
-                    <p>Address: 2/3, B wing, ground floor, Mitali height, Near KDMC D ward and Gurudham hotel , Katemanivali Naka,Pune link road, Kalyan east
-
-                    </p>
+                    <p><?= Yii::$app->params['address'] ?></p>
 
                     <!-- Table -->
                     <table class="table">

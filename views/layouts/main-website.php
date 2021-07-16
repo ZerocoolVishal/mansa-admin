@@ -7,7 +7,7 @@ use yii\helpers\Html;
 use app\assets\AppAsset;
 
 \app\assets\WebsiteThemeAssets::register($this);
-//AppAsset::register($this);
+AppAsset::register($this);
 
 ?>
 <?php $this->beginPage() ?>
