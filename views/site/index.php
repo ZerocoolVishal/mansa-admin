@@ -130,9 +130,6 @@ $this->title = 'Home';
     <?= $this->render('../layouts/website/_testimonies') ?>
     <!-- End Testimonials Section -->
 
-    <!-- ======= F.A.Q Section ======= -->
-    <!-- End F.A.Q Section -->
-
     <!-- ======= Contact Section ======= -->
     <section id="contact" class="contact">
         <div class="container">
@@ -148,7 +145,7 @@ $this->title = 'Home';
                     <div class="info-box">
                         <i class="bx bx-map"></i>
                         <h3>Our Address</h3>
-                        <p>A108 Adam Street, New York, NY 535022</p>
+                        <p><?= Yii::$app->params['address'] ?></p>
                     </div>
                 </div>
 
@@ -156,14 +153,16 @@ $this->title = 'Home';
                     <div class="info-box">
                         <i class="bx bx-envelope"></i>
                         <h3>Email Us</h3>
-                        <p>info@example.com<br>contact@example.com</p>
+                        <p><?= Yii::$app->params['contact_email'] ?></p>
+                        <p><?= Yii::$app->params['contact_email'] ?></p>
                     </div>
                 </div>
                 <div class="col-xl-3 col-lg-4 mt-4" data-aos="fade-up" data-aos-delay="200">
                     <div class="info-box">
                         <i class="bx bx-phone-call"></i>
                         <h3>Call Us</h3>
-                        <p>+1 5589 55488 55<br>+1 6678 254445 41</p>
+                        <p><?= Yii::$app->params['mobile_no'] ?></p>
+                        <p><?= Yii::$app->params['landline_no'] ?></p>
                     </div>
                 </div>
             </div>
