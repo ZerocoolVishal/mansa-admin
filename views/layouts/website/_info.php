@@ -18,17 +18,11 @@ use yii\helpers\Html;
                     <span class="section-id">ABOUT US</span>
 
                     <!-- Title -->
-                    <h3 class="h3-md dark-brand">Mannsparsh Neuropsychiatric Center and Nursing Home</h3>
+                    <h3 class="h3-md dark-brand"><?= Yii::$app->params['name'] ?></h3>
 
                     <!-- Text -->
                     <p class="mb-30">
-                        <b>Mannsparsh Neuropsychiatric Center and Nursing Home</b> is a comprehensive Psychiatric care facility equipped for management of acute psychiatric emergencies and rehabilitation services
-                    </p>
-                    <p>
-                        Our vision is to provide HOLISTIC care through our multidisciplinary team of Psychiatrist, Counselling  Psychologist , Occupational therapist and Remedial educator UNDER  ONE ROOF
-                    </p>
-                    <p>
-                        It is first of its kind catering a population of Kalyan EAST and adjacent areas
+                        <b><?= Yii::$app->params['name'] ?></b> is one of the licensed rehabilitation and DE-addiction facility situated currently at Titwala providing comprehensive and holistic neuropsychiatric care under the able guidance of psychiatrist and neurologist on 24/7 basis.
                     </p>
 
                     <h5>OUR MISSION</h5>
@@ -41,19 +35,53 @@ use yii\helpers\Html;
                             <!-- Option #1 -->
                             <div class="box-list m-top-15">
                                 <div class="box-list-icon brand-color"><i class="fas fa-angle-double-right"></i></div>
-                                <p class="p-sm">To destigmatise psychiatric illnesses through awareness</p>
+                                <p class="p-sm">To fight against menace of drug addiction (Manasa warriors)</p>
                             </div>
 
                             <!-- Option #2 -->
                             <div class="box-list">
                                 <div class="box-list-icon brand-color"><i class="fas fa-angle-double-right"></i></div>
-                                <p class="p-sm">To provide affordable, accessible and quality services</p>
+                                <p class="p-sm"> To rehabilitate and protect rights of mentally ill and dementia patients by improving functional quality of life.</p>
                             </div>
 
                             <!-- Option #3 -->
                             <div class="box-list">
                                 <div class="box-list-icon brand-color"><i class="fas fa-angle-double-right"></i></div>
-                                <p class="p-sm">To promote psychological well being in all age group</p>
+                                <p class="p-sm">To create awareness in society about psychiatry as a neuroscience through integration of art and science (Bio psychosocial model)</p>
+                            </div>
+
+                        </div>
+
+                    </div>	<!-- End Options List -->
+
+                    <h5>OUR VISION</h5>
+
+                    <!-- Options List -->
+                    <div class="row">
+
+                        <div class="col-xl-12">
+
+                            <!-- Option #1 -->
+                            <div class="box-list m-top-15">
+                                <div class="box-list-icon brand-color"><i class="fas fa-angle-double-right"></i></div>
+                                <p class="p-sm">To rejuvenate the patients’ lives with their full participation  through multidisciplinary approach thus providing equal opportunities for growth and reintegration in society</p>
+                            </div>
+
+                        </div>
+
+                    </div>	<!-- End Options List -->
+
+                    <h5>OUR PATH</h5>
+
+                    <!-- Options List -->
+                    <div class="row">
+
+                        <div class="col-xl-12">
+
+                            <!-- Option #1 -->
+                            <div class="box-list m-top-15">
+                                <div class="box-list-icon brand-color"><i class="fas fa-angle-double-right"></i></div>
+                                <p class="p-sm">To establish as a training institute in field of psychosocial rehabilitation</p>
                             </div>
 
                         </div>
