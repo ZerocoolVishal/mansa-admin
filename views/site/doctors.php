@@ -10,43 +10,37 @@ $this->title = "Meet the Doctor";
 
 ?>
 
-<!-- DOCTORS-3
-============================================= -->
-<section id="doctors-3" class="wide-60 doctors-section division">
+<section id="team" class="team section-bg">
     <div class="container">
+
         <div class="row">
 
-
-            <?php
-            /* @var $doctor \app\models\Doctors */
-            foreach ($model->models as $doctor):
-            ?>
-            <!-- DOCTOR #1 -->
-            <div class="col-md-6 col-lg-4">
-                <div class="doctor-2">
-
-                    <!-- Doctor Photo -->
-                    <div class="hover-overlay">
-                        <?= Html::img("@web/uploads/$doctor->image", ['class' => 'img-fluid', 'alt' => 'doctor-foto']) ?>
+                <?php
+                    /* @var $doctor \app\models\Doctors */
+                    foreach ($model->models as $doctor):
+                ?>
+                <div class="col-lg-3 col-md-6 d-flex align-items-stretch" data-aos="fade-up">
+                    <div class="member">
+                        <div class="member-img">
+                            <?= Html::img("@web/uploads/$doctor->image", ['class' => 'img-fluid', 'alt' => '']) ?>
+                            <div class="social">
+                                <a href=""><i class="icofont-twitter"></i></a>
+                                <a href=""><i class="icofont-facebook"></i></a>
+                                <a href=""><i class="icofont-instagram"></i></a>
+                                <a href=""><i class="icofont-linkedin"></i></a>
+                            </div>
+                        </div>
+                        <div class="member-info">
+                            <h4><?= Html::encode($doctor->name) ?></h4>
+                            <span><?= Html::encode($doctor->sibtitle) ?></span>
+                        </div>
                     </div>
-
-                    <!-- Doctor Meta -->
-                    <div class="doctor-meta">
-
-                        <h5 class="h5-xs brand-color"><?= Html::encode($doctor->name) ?></h5>
-                        <span><?= Html::encode($doctor->sibtitle) ?></span>
-
-                        <!-- Button -->
-                        <?= Html::a('View More Info', ['site/doctor-details', 'id' => $doctor->doctor_id], ['class' => 'btn btn-sm btn-brand brand-hover mt-15', 'title' => '']) ?>
-
-                    </div>
-
                 </div>
-            </div>	<!-- END DOCTOR #1 -->
             <?php endforeach; ?>
 
-        </div>	    <!-- End row -->
-    </div>	   <!-- End container -->
-</section>	<!-- END DOCTORS-3 -->
+        </div>
+
+    </div>
+</section>
 
 <?= $this->render('../layouts/website/_testimonies', ['title' => 'Meet the Doctors']) ?>

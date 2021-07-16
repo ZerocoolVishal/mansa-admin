@@ -4,7 +4,7 @@ use yii\helpers\Html;
 
 ?>
 <!-- ======= Footer ======= -->
-<footer id="footer" class="mt-5">
+<footer id="footer" class="">
 
     <div class="footer-top">
         <div class="container">
