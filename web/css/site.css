@@ -1,5 +1,5 @@
 .brand-color {
-    color: #6f9330 !important;
+    color: #c2ffe7 !important;
 }
 
 .dark-brand {
@@ -7,28 +7,29 @@
 }
 
 .header-button span, .wsmenu > .wsmenu-list > li.header-btn a {
-    background-color: #6f9330 !important;
-    border-color: #6f9330 !important;
+    color: #0a0a0a;
+    background-color: #c2ffe7 !important;
+    border-color: #c2ffe7 !important;
 }
 
 .btn-brand {
-    color: #fff;
-    background-color: #6f9330;
-    border-color: #6f9330;
+    color: #0a0a0a;
+    background-color: #c2ffe7;
+    border-color: #c2ffe7;
 }
 
 .brand-hover:hover {
-    color: #fff;
-    background-color: #81aa35;
-    border-color: #6f9330;
+    color: #0a0a0a;
+    background-color: #c2ffe7;
+    border-color: #c2ffe7;
 }
 
 .breadcrumb-item a:hover {
-    color: #81aa35;
+    color: #c2ffe7;
 }
 
 .sbox-3-icon {
-    background-color: #6f9330 !important;
+    background-color: #c2ffe7 !important;
 }
 
 .doctor-1 .item-overlay {
@@ -36,23 +37,23 @@
 }
 
 .wsmenu >.wsmenu-list > li:hover > a {
-    color: #6f9330;
+    color: #c2ffe7;
 }
 
 .bg-brand {
-    background-color: #81aa35;
+    background-color: #c2ffe7;
 }
 
 .nav-pills .nav-link.active, .nav-pills .nav-link.active:hover {
-    background-color: #81aa35;
-    border-color: #81aa35;
-    color: #fff;
+    background-color: #c2ffe7;
+    border-color: #c2ffe7;
+    color: #0a0a0a;
 }
 
 .abox-4-table.blue-table {
-    background-color: #81aa35;
-    border: 1px solid #81aa35;
-    color: #fff;
+    background-color: #c2ffe7;
+    border: 1px solid #c2ffe7;
+    color: #0a0a0a;
     box-shadow: none;
 }
 

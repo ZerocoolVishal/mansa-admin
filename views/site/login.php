@@ -15,14 +15,13 @@ $this->params['breadcrumbs'][] = $this->title;
 
        <div class="card border-0 shadow p-3 my-5 w-100">
            <div class="card-body">
-               <h1><?= Html::encode($this->title) ?></h1>
-
-               <p>Please fill out the following fields to login:</p>
 
                <?php $form = ActiveForm::begin(['id' => 'login-form']); ?>
 
                <div class="row">
                    <div class="col-md-6">
+                       <h1><?= Html::encode($this->title) ?></h1>
+                       <p>Please fill out the following fields to login:</p>
                        <div class="row">
                            <div class="col-md-12">
                                <?= $form->field($model, 'username')->textInput(['autofocus' => true]) ?>
@@ -47,7 +46,7 @@ $this->params['breadcrumbs'][] = $this->title;
                        </div>
                    </div>
                    <div class="col-md-6 text-center d-none d-md-block">
-                       <?= Html::img('@web/images/logo.png', ['width' => '50%']) ?>
+                       <?= Html::img('@web/images/logo.png', ['width' => '50%', 'class' => 'mt-5']) ?>
                    </div>
                </div>
 
