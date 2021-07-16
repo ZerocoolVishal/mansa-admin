@@ -71,8 +71,7 @@ use yii\helpers\Html;
 
         <!-- Text -->
         <p class="p-sm">
-            Address: 2/3, B wing, ground floor, Mitali height, Near KDMC D ward and Gurudham hotel , Katemanivali Naka,Pune link road, Kalyan east
-
+            <?= Yii::$app->params['address'] ?>
         </p>
 
         <!-- Button -->
