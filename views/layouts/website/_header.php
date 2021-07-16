@@ -44,6 +44,7 @@ use yii\helpers\Html;
                     ['label' => 'Services', 'url' => ['/site/services']],
                     ['label' => 'Doctors', 'url' => ['/site/doctors']],
                     ['label' => 'Blogs', 'url' => ['/site/blogs']],
+                    ['label' => 'FAQs', 'url' => ['/site/faq']]
                 ]
             ]);
             ?>

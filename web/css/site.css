@@ -89,6 +89,9 @@
 #footer-2 {
     background-color: #f1f1f1;
 }
+.values .card-body {
+    background: rgb(255 255 255 / 62%);
+}
 
 @media (max-width: 767px) {
     .wsmobileheader .smllogo {
