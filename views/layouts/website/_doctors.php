@@ -20,21 +20,17 @@ $doctors = \app\helpers\AppHelpers::getFeaturedDoctors();
 
             <?php foreach ($doctors as $doctor): ?>
                 <div class="col-lg-3 col-md-6 d-flex align-items-stretch" data-aos="fade-up">
-                    <div class="member">
-                        <div class="member-img">
-                            <?= Html::img("@web/uploads/$doctor->image", ['class' => 'img-fluid', 'alt' => '']) ?>
-                            <div class="social">
-                                <a href=""><i class="icofont-twitter"></i></a>
-                                <a href=""><i class="icofont-facebook"></i></a>
-                                <a href=""><i class="icofont-instagram"></i></a>
-                                <a href=""><i class="icofont-linkedin"></i></a>
+                    <a href="<?= \yii\helpers\Url::to(['site/doctor-details', 'id' => $doctor->doctor_id]) ?>">
+                        <div class="member">
+                            <div class="member-img">
+                                <?= Html::img("@web/uploads/$doctor->image", ['class' => 'img-fluid', 'alt' => '']) ?>
+                            </div>
+                            <div class="member-info">
+                                <h4><?= Html::encode($doctor->name) ?></h4>
+                                <span><?= Html::encode($doctor->sibtitle) ?></span>
                             </div>
                         </div>
-                        <div class="member-info">
-                            <h4><?= Html::encode($doctor->name) ?></h4>
-                            <span><?= Html::encode($doctor->sibtitle) ?></span>
-                        </div>
-                    </div>
+                    </a>
                 </div>
             <?php endforeach; ?>
 
