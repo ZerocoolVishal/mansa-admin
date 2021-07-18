@@ -12,7 +12,7 @@ $action = Yii::$app->controller->id . '/' . Yii::$app->controller->action->id;
 
     <!-- Sidebar - Brand -->
     <a class="sidebar-brand d-flex align-items-center mb-3" href="#">
-        <?= Html::img('@web/images/logo.png', ['width' => '170px', 'class' => 'd-none d-md-block']) ?>
+        <?= Html::img('@web/images/logo_2.png', ['width' => '170px', 'class' => 'd-none d-md-block']) ?>
     </a>
 
     <?php if(UserIdentity::isAvailable('admin')): ?>
