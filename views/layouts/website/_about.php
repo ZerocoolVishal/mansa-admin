@@ -1,98 +1,43 @@
-<!-- ABOUT-4
-			============================================= -->
-<section id="about-4" class="wide-60 about-section division">
+<!-- ABOUT
+============================================= -->
+<section id="about" class="about section-bg">
     <div class="container">
+
         <div class="row">
-
-
-            <!-- ABOUT BOX #1 -->
-            <div class="col-lg-4">
-                <div class="abox-4 mb-40 wow fadeInUp" data-wow-delay="0.4s">
-
-                    <!-- Image -->
-                    <?= \yii\helpers\Html::img('@web/website-theme/images/quality_care_800x600.jpg', ['class' => 'img-fluid', 'alt' => 'about-image']) ?>
-
-                    <!-- Text -->
-                    <div class="abox-4-txt">
-
-                        <!-- Title -->
-                        <h5 class="h5-xs dark-brand"><a href="#">Highest Quality Care</a></h5>
-
-                        <!-- Text -->
-                        <p>Porta semper lacus cursus, feugiat primis ultrice ligula risus auctor tempus feugiat
-                            dolor lacinia cursus nulla vitae massa placerat at neque purus ultrice
-                        </p>
-                    </div>
-
-                </div>
+            <div class="col-xl-5 col-lg-6 video-box d-flex justify-content-center align-items-stretch" data-aos="fade-right">
+                <a href="https://www.youtube.com/watch?v=jDDaplaOz7Q" class="venobox play-btn mb-4" data-vbtype="video" data-autoplay="true"></a>
             </div>
 
+            <div class="col-xl-7 col-lg-6 icon-boxes d-flex flex-column align-items-stretch justify-content-center py-5 px-lg-5">
+                <h4 data-aos="fade-up">About us</h4>
+                <h3 data-aos="fade-up">Manasa</h3>
+                <p data-aos="fade-up">
+                    Manasa is one of the licensed rehabilitation and DE-addiction facility situated
+                    currently at Titwala providing comprehensive and holistic neuropsychiatric care under the able
+                    guidance of psychiatrist and neurologist on 24/7 basis.
+                </p>
 
-            <!-- ABOUT BOX #2 -->
-            <div class="col-lg-4">
-                <div class="abox-4 mb-40 wow fadeInUp" data-wow-delay="0.6s">
-
-                    <!-- Image -->
-                    <?= \yii\helpers\Html::img('@web/website-theme/images/quality_care_800x600.jpg', ['class' => 'img-fluid', 'alt' => 'about-image']) ?>
-
-                    <!-- Text -->
-                    <div class="abox-4-txt">
-
-                        <!-- Title -->
-                        <h5 class="h5-xs dark-brand"><a href="#">Emergency Department</a></h5>
-
-                        <!-- Text -->
-                        <p>Porta semper lacus cursus, feugiat primis ultrice ligula risus auctor tempus feugiat
-                            dolor lacinia cursus nulla vitae massa placerat at neque purus ultrice
-                        </p>
-                    </div>
-
+                <div class="icon-box" data-aos="fade-up">
+                    <div class="icon"><i class="bx bx-fingerprint"></i></div>
+                    <h4 class="title"><a href="">Lorem Ipsum</a></h4>
+                    <p class="description">Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident</p>
                 </div>
-            </div>
 
-
-            <!-- ABOUT BOX #3 -->
-            <div class="col-lg-4">
-                <div class="abox-4 abox-4-table blue-table mb-40 wow fadeInUp" data-wow-delay="0.6s">
-
-                    <!-- Title -->
-                    <h5 class="h5-sm">Working Time</h5>
-
-                    <!-- Text -->
-                    <p>Porta semper lacus cursus, feugiat primis ultrice ligula risus auctor at tempus feugiat
-                        dolor lacinia cursus nulla vitae massa
-                    </p>
-
-                    <!-- Table -->
-                    <table class="table">
-                        <tbody>
-                        <tr>
-                            <td>Mon – Wed</td>
-                            <td> - </td>
-                            <td class="text-right">9:00 AM - 7:00 PM</td>
-                        </tr>
-                        <tr>
-                            <td>Thursday</td>
-                            <td> - </td>
-                            <td class="text-right">9:00 AM - 6:30 PM</td>
-                        </tr>
-                        <tr>
-                            <td>Friday</td>
-                            <td> - </td>
-                            <td class="text-right">9:00 AM - 6:00 PM</td>
-                        </tr>
-                        <tr class="last-tr">
-                            <td>Sun - Sun</td>
-                            <td>-</td>
-                            <td class="text-right">Closed</td>
-                        </tr>
-                        </tbody>
-                    </table>
-
+                <div class="icon-box" data-aos="fade-up" data-aos-delay="100">
+                    <div class="icon"><i class="bx bx-gift"></i></div>
+                    <h4 class="title"><a href="">Nemo Enim</a></h4>
+                    <p class="description">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque</p>
                 </div>
+
+                <div class="icon-box" data-aos="fade-up" data-aos-delay="200">
+                    <div class="icon"><i class="bx bx-atom"></i></div>
+                    <h4 class="title"><a href="">Dine Pad</a></h4>
+                    <p class="description">Explicabo est voluptatum asperiores consequatur magnam. Et veritatis odit. Sunt aut deserunt minus aut eligendi omnis</p>
+                </div>
+
             </div>
+        </div>
 
-
-        </div>    <!-- End row -->
-    </div>	   <!-- End container -->
-</section>	<!-- END ABOUT-4 -->
+    </div>
+</section>
+<!-- END ABOUT -->
