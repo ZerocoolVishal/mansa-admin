@@ -21,7 +21,6 @@ class WebsiteThemeAssets extends AssetBundle
     public $baseUrl = '@web/theme-web/';
     public $css = [
         'https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i',
-//        'vendor/bootstrap/css/bootstrap.min.css',
         'vendor/icofont/icofont.min.css',
         'vendor/boxicons/css/boxicons.min.css',
         'vendor/venobox/venobox.css',
@@ -30,8 +29,6 @@ class WebsiteThemeAssets extends AssetBundle
         'css/style.css',
     ];
     public $js = [
-//        'vendor/jquery/jquery.min.js',
-//        'vendor/bootstrap/js/bootstrap.bundle.min.js',
         'vendor/jquery.easing/jquery.easing.min.js',
         'vendor/php-email-form/validate.js',
         'vendor/jquery-sticky/jquery.sticky.js',
