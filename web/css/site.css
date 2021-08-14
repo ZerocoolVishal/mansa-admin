@@ -95,7 +95,8 @@
 }
 
 .member-img .img-fluid {
-    height: 250px !important;
+    width: 250px !important;
+    height: 260px !important;
     object-fit: cover !important;
 }
 
