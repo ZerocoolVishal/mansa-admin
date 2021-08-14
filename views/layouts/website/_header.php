@@ -41,9 +41,9 @@ use yii\helpers\Html;
                 'items' => [
                     ['label' => 'Home', 'url' => ['/site/index']],
                     ['label' => 'About', 'url' => ['/site/about-us']],
-                    ['label' => 'Services', 'url' => ['/site/services']],
+//                    ['label' => 'Services', 'url' => ['/site/services']],
                     ['label' => 'Doctors', 'url' => ['/site/doctors']],
-                    ['label' => 'Blogs', 'url' => ['/site/blogs']],
+//                    ['label' => 'Blogs', 'url' => ['/site/blogs']],
                     ['label' => 'FAQs', 'url' => ['/site/faq']]
                 ]
             ]);
