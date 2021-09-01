@@ -1,5 +1,5 @@
 .brand-color {
-    color: #29966c !important;
+    color: #064887 !important;
 }
 
 .dark-brand {
@@ -7,29 +7,29 @@
 }
 
 .header-button span, .wsmenu > .wsmenu-list > li.header-btn a {
-    color: #0a0a0a;
-    background-color: #c2ffe7 !important;
-    border-color: #c2ffe7 !important;
+    color: #fff;
+    background-color: #064887 !important;
+    border-color: #064887 !important;
 }
 
 .btn-brand {
-    color: #0a0a0a;
-    background-color: #c2ffe7;
-    border-color: #c2ffe7;
+    color: #fff;
+    background-color: #064887;
+    border-color: #064887;
 }
 
 .brand-hover:hover {
-    color: #0a0a0a;
-    background-color: #c2ffe7;
-    border-color: #c2ffe7;
+    color: #fff;
+    background-color: #064887;
+    border-color: #064887;
 }
 
 .breadcrumb-item a:hover {
-    color: #c2ffe7;
+    color: #064887;
 }
 
 .sbox-3-icon {
-    background-color: #c2ffe7 !important;
+    background-color: #064887 !important;
 }
 
 .doctor-1 .item-overlay {
@@ -37,28 +37,53 @@
 }
 
 .wsmenu >.wsmenu-list > li:hover > a {
-    color: #c2ffe7;
+    color: #064887;
 }
 
 .bg-brand {
-    background-color: #c2ffe7;
+    background-color: #064887;
+    color: #fff;
 }
 
 .nav-pills .nav-link.active, .nav-pills .nav-link.active:hover {
-    background-color: #c2ffe7;
-    border-color: #c2ffe7;
-    color: #0a0a0a;
+    background-color: #064887;
+    border-color: #064887;
+    color: #fff;
 }
 
 .abox-4-table.blue-table {
-    background-color: #c2ffe7;
-    border: 1px solid #c2ffe7;
-    color: #0a0a0a;
+    background-color: #064887;
+    border: 1px solid #064887;
+    color: #fff;
     box-shadow: none;
+}
+
+.btn:hover, .btn:focus, .btn.focus {
+    color: #ffffff !important;
+}
+
+.icofont-envelope, .icofont-phone, .icofont-clock-time {
+    color: #FFFFFF !important;
+}
+
+#sidebar .table {
+    color: #FFFFFF;
 }
 
 .grid-view {
     overflow-x: auto;
+}
+
+.division {
+    padding: 40px 0;
+}
+
+#sidebar .sidebar-table {
+    margin-top: 23px;
+}
+
+.blue-table .table {
+    color: #FFFFFF;
 }
 
 #loader {
@@ -88,6 +113,30 @@
 
 #footer-2 {
     background-color: #f1f1f1;
+}
+
+#footer .footer-top h4 {
+    color: #fff !important;
+}
+
+.footer-top, .footer-contact {
+    color: #fff !important;
+}
+
+#footer .footer-top .footer-links ul i {
+    color: #e1e1e1 !important;
+}
+
+#footer .footer-top .footer-contact p {
+    color: #e1e1e1 !important;
+}
+
+.footer-newsletter p {
+    color: #e1e1e1 !important;
+}
+
+#footer .footer-top .footer-links ul a {
+    color: #e1e1e1 !important;
 }
 
 .values .card-body {

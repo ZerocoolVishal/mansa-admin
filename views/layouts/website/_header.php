@@ -17,13 +17,13 @@ use yii\helpers\Html;
 
         </div>
         <div class="cta">
-            <?= Html::a('Get Started', '/site/index#about', ['class' => 'scrollto']) ?>
+            <?= Html::a('Get Appointment', ['site/book-appointment'], ['class' => 'scrollto']) ?>
         </div>
     </div>
 </section>
 
 <!-- ======= Header ======= -->
-<header id="header">
+<header id="header" class="shadow-sm">
     <div class="container d-flex">
 
         <div class="logo mr-auto">
