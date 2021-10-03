@@ -50,7 +50,7 @@ $this->title = 'Home';
                             <div class="col-xl-4 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="100">
                                 <div class="icon-box mt-4 mt-xl-0">
                                     <i class="bx bx-receipt"></i>
-<!--                                    <h4>Licensed</h4>-->
+                                    <h4>Authentic SERVICES</h4>
                                     <p>
                                        Licensed re-habilitation facilities in sociol eco friendly environment
                                     </p>
@@ -59,15 +59,15 @@ $this->title = 'Home';
                             <div class="col-xl-4 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="200">
                                 <div class="icon-box mt-4 mt-xl-0">
                                     <i class="bx bx-cube-alt"></i>
-<!--                                    <h4>24*7</h4>-->
+                                    <h4>Availability of QUALITY care</h4>
                                     <p>24*7 professional care under qualified doctors & nurses</p>
                                 </div>
                             </div>
                             <div class="col-xl-4 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="300">
                                 <div class="icon-box mt-4 mt-xl-0">
                                     <i class="bx bx-atom"></i>
-<!--                                    <h4>Skills</h4>-->
-                                    <p>Enhancement of phychological & vocational skills</p>
+                                    <h4>Approach to FUNCTIONAL recovery</h4>
+                                    <p>Enhancement of psychological well-being and vocational skills.</p>
                                 </div>
                             </div>
                         </div>

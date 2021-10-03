@@ -19,7 +19,7 @@
 
                 <div class="icon-box" data-aos="fade-up">
                     <div class="icon"><i class="bx bx-receipt"></i></div>
-                    <h4 class="title"><a href="">Licensed re-habilitation facilities</a></h4>
+                    <h4 class="title"><a href="">Authentic SERVICES</a></h4>
                     <p class="description">
                         Licensed re-habilitation facilities in sociol eco friendly environment
                     </p>
@@ -27,7 +27,7 @@
 
                 <div class="icon-box" data-aos="fade-up" data-aos-delay="100">
                     <div class="icon"><i class="bx bx-cube-alt"></i></div>
-                    <h4 class="title"><a href="">24*7 professional care</a></h4>
+                    <h4 class="title"><a href="">Availability of QUALITY care</a></h4>
                     <p class="description">
                         24*7 professional care under qualified doctors & nurses
                     </p>
@@ -35,7 +35,7 @@
 
                 <div class="icon-box" data-aos="fade-up" data-aos-delay="200">
                     <div class="icon"><i class="bx bx-atom"></i></div>
-                    <h4 class="title"><a href="">Enhancement of phychological</a></h4>
+                    <h4 class="title"><a href="">Approach to FUNCTIONAL recovery</a></h4>
                     <p class="description">
                         Enhancement of phychological & vocational skills
                     </p>
