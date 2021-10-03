@@ -149,6 +149,10 @@
     object-fit: cover !important;
 }
 
+.services .icon-box {
+    height: 220px !important;
+}
+
 @media (max-width: 767px) {
     .wsmobileheader .smllogo {
         margin-top: 0px !important;

@@ -5,9 +5,7 @@
 
         <div class="section-title" data-aos="fade-up">
             <h2>Services</h2>
-            <p>Manasa is one of the licensed rehabilitation and DE-addiction facility situated
-                currently at Titwala providing comprehensive and holistic neuropsychiatric care under the able
-                guidance of psychiatrist and neurologist on 24/7 basis.</p>
+            <p>Manasa is providing comprehensive and holistic neuropsychiatric care under the able guidance of psychiatrist and neurologist catering to chronic neuropsychiatry patients, dementia patients, and patients with addiction.</p>
         </div>
 
         <div class="row">
@@ -23,35 +21,35 @@
                 <div class="icon-box">
                     <div class="icon"><i class="icofont-chart-bar-graph"></i></div>
                     <h4 class="title"><a href="">Rehabilitation & NEUROREHABILITATION (DAY CARE)</a></h4>
-                    <p class="description">Rehabilitation for chronic psychiatric patients</p>
+                    <p class="description">Enhancing neuromuscular functioning and cognitive skills for independent Activities of daily living.</p>
                 </div>
             </div>
             <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
                 <div class="icon-box">
                     <div class="icon"><i class="icofont-earth"></i></div>
                     <h4 class="title"><a href="">Dementia care and rehabilitation</a></h4>
-                    <p class="description">Dementia care and rehabilitation (MEMORY AND COGNITIVE SKILL ENHANCEMENT FOR INDEPENDENT ACTIVITIES OF DAILY LIVING)</p>
+                    <p class="description">Dementia care and rehabilitation (memory and cognitive skill enhancement for independent activities of daily living).</p>
                 </div>
             </div>
             <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="300">
                 <div class="icon-box">
                     <div class="icon"><i class="icofont-image"></i></div>
-                    <h4 class="title"><a href="">Magni Dolores</a></h4>
-                    <p class="description">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
+                    <h4 class="title"><a href="">Psychiatric rehabilitation in place of</a></h4>
+                    <p class="description">Functional recovery in chronic psychiatric patients through psychosocial rehabilitation.</p>
                 </div>
             </div>
             <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="400">
                 <div class="icon-box">
                     <div class="icon"><i class="icofont-settings"></i></div>
                     <h4 class="title"><a href="">Old age rehabilitation</a></h4>
-                    <p class="description">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque</p>
+                    <p class="description">Promoting healthy aging through cognitive skill enhancement and active participation in self-help skills.</p>
                 </div>
             </div>
             <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="500">
                 <div class="icon-box">
                     <div class="icon"><i class="icofont-tasks-alt"></i></div>
                     <h4 class="title"><a href="">Vocational Training</a></h4>
-                    <p class="description">vocational training to restore functionality on long term</p>
+                    <p class="description">To restore functionality through motivation enhancement, personality development, and life skill training.</p>
                 </div>
             </div>
         </div>

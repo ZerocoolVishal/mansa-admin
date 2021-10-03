@@ -12,11 +12,11 @@ $doctors = \app\helpers\AppHelpers::getFeaturedDoctors();
 
         <div class="section-title">
             <h2 data-aos="fade-up">Doctors</h2>
-            <p data-aos="fade-up">Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
+            <p data-aos="fade-up">Team of a qualified psychiatrist, psychologist, occupational therapist, physiotherapist, and neurologist at patients service thus rendering recovery through quality care.
+            </p>
         </div>
 
-        <div class="row">
-
+        <div class="row justify-content-center">
 
             <?php foreach ($doctors as $doctor): ?>
                 <div class="col-lg-3 col-md-6 d-flex align-items-stretch" data-aos="fade-up">
