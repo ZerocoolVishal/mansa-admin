@@ -10,22 +10,17 @@ use yii\bootstrap4\Alert;
 
 ?>
 
-<?= $this->render('../layouts/website/_breadcrumb', [
-    'list' => [
-        ['title' => 'Contact us', 'active' => true]
-    ]
-]) ?>
-
 <!-- GOOGLE MAP
 ============================================= -->
 <div class="m-5" >
-    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2583.41554568784!2d73.1368863754881!3d19.225012894779375!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be794358701ff67%3A0x6bbfa75a89449e75!2sMannSparsh%20Neuropsychiatric%20Hospital!5e0!3m2!1sen!2sin!4v1595443115564!5m2!1sen!2sin" width="100%" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1196.3704958212002!2d73.23783882923755!3d19.298659999185055!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMTnCsDE3JzU1LjIiTiA3M8KwMTQnMTguMiJF!5e1!3m2!1sen!2sin!4v1633261619600!5m2!1sen!2sin" width="100%" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
 </div>
 
 <!-- CONTACTS-1
 ============================================= -->
 <section id="contacts-1" class="wide-60 contacts-section division" style="padding-top: 0px; padding-bottom: 0px">
-    <div class="container">
+
+    <div class="container mb-5">
 
 
         <!-- SECTION TITLE -->
@@ -36,9 +31,7 @@ use yii\bootstrap4\Alert;
                 <h3 class="h3-md dark-brand">Have a Question? Get In Touch</h3>
 
                 <!-- Text -->
-                <p>Have a question? Want to book an appointment for yourself or your children? Give us a call
-                    or send an email to contact the MedService.
-                </p>
+                <p></p>
 
             </div>
         </div>
@@ -61,21 +54,21 @@ use yii\bootstrap4\Alert;
                 <!-- General Information -->
                 <div class="contact-box mb-40">
                     <h5 class="h5-sm dark-brand">General Information</h5>
-                    <p>Address: 2/3, B wing, ground floor, Mitali height, <br>
-                        Near KDMC D ward and Gurudham hotel, <br>
-                        Katemanivali Naka, Pune link road, <br>
-                        Kalyan East.<br>
+                    <p>Address: Near Swapn Nagari Homes,<br>
+                        Behind Pine Wood Resort,<br>
+                        Runde Village,<br>
+                        Titwala, Maharashtra
                     </p>
                     <p>Phone: <?= Yii::$app->params['landline_no'] ?>, <?= Yii::$app->params['mobile_no'] ?></p>
-                    <p>Email: <a href="mannsparshpsy@gmail.com" class="brand-color">mannsparshpsy@gmail.com</a></p>
+                    <p>Email: <a href="mailto:contact@manasa.com" class="brand-color">contact@manasa.com</a></p>
                 </div>
 
                 <!-- Working Hours -->
-                <div class="contact-box mb-40">
+                <!--<div class="contact-box mb-40">
                     <h5 class="h5-sm dark-brand">Working Hours</h5>
                     <table>
                         <tr>
-                            <td>Mon – Sat : </td>
+                            <td>Mon – Sunday :</td>
                             <td>01:00 PM - 03:00 PM</td>
                         </tr>
                         <tr>
@@ -83,11 +76,11 @@ use yii\bootstrap4\Alert;
                             <td>07:30 PM - 09:30 PM</td>
                         </tr>
                         <tr>
-                            <td>Sunday : </td>
+                            <td>Sunday :</td>
                             <td>Only emergency services</td>
                         </tr>
                     </table>
-                </div>
+                </div>-->
 
             </div>	<!-- END CONTACTS INFO -->
 
@@ -140,9 +133,5 @@ use yii\bootstrap4\Alert;
         </div>	<!-- End row -->
 
     </div>	   <!-- End container -->
-
-    <!-- EMERGENCY -->
-    <?= $this->render('../layouts/website/_banner2') ?>
-
 
 </section>	<!-- END CONTACTS-1 -->
