@@ -18,21 +18,27 @@
                 </p>
 
                 <div class="icon-box" data-aos="fade-up">
-                    <div class="icon"><i class="bx bx-fingerprint"></i></div>
-                    <h4 class="title"><a href="">Lorem Ipsum</a></h4>
-                    <p class="description">Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident</p>
+                    <div class="icon"><i class="bx bx-receipt"></i></div>
+                    <h4 class="title"><a href="">Licensed re-habilitation facilities</a></h4>
+                    <p class="description">
+                        Licensed re-habilitation facilities in sociol eco friendly environment
+                    </p>
                 </div>
 
                 <div class="icon-box" data-aos="fade-up" data-aos-delay="100">
-                    <div class="icon"><i class="bx bx-gift"></i></div>
-                    <h4 class="title"><a href="">Nemo Enim</a></h4>
-                    <p class="description">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque</p>
+                    <div class="icon"><i class="bx bx-cube-alt"></i></div>
+                    <h4 class="title"><a href="">24*7 professional care</a></h4>
+                    <p class="description">
+                        24*7 professional care under qualified doctors & nurses
+                    </p>
                 </div>
 
                 <div class="icon-box" data-aos="fade-up" data-aos-delay="200">
                     <div class="icon"><i class="bx bx-atom"></i></div>
-                    <h4 class="title"><a href="">Dine Pad</a></h4>
-                    <p class="description">Explicabo est voluptatum asperiores consequatur magnam. Et veritatis odit. Sunt aut deserunt minus aut eligendi omnis</p>
+                    <h4 class="title"><a href="">Enhancement of phychological</a></h4>
+                    <p class="description">
+                        Enhancement of phychological & vocational skills
+                    </p>
                 </div>
 
             </div>

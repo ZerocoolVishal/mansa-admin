@@ -29,7 +29,7 @@ use yii\helpers\Html;
         <div class="logo mr-auto">
             <h1 class="text-light">
                 <?= Html::img('@web/images/manasa-logo.png') ?>
-                <a href="<?= \yii\helpers\Url::toRoute('site/index') ?>"><span>Manasa</span></a>
+                <a href="<?= \yii\helpers\Url::toRoute('site/index') ?>"></a>
             </h1>
             <!-- Uncomment below if you prefer to use an image logo -->
             <!-- <a href="index.html"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->

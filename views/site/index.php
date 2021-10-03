@@ -40,7 +40,7 @@ $this->title = 'Home';
                             It is also one of its kind providing neuro phychiatric care wth availability of phychiatrist & trained/qualified nursing staff 24*7.
                         </p>
                         <div class="text-center">
-                            <a href="#" class="more-btn">Learn More <i class="bx bx-chevron-right"></i></a>
+                            <?= Html::a('Learn More <i class="bx bx-chevron-right"></i>', ['site/about-us'], ['class' => 'more-btn']) ?>
                         </div>
                     </div>
                 </div>
@@ -65,7 +65,7 @@ $this->title = 'Home';
                             </div>
                             <div class="col-xl-4 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="300">
                                 <div class="icon-box mt-4 mt-xl-0">
-                                    <i class="bx bx-images"></i>
+                                    <i class="bx bx-atom"></i>
 <!--                                    <h4>Skills</h4>-->
                                     <p>Enhancement of phychological & vocational skills</p>
                                 </div>
