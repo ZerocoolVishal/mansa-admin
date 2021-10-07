@@ -60,7 +60,7 @@ use yii\bootstrap4\Alert;
                         Titwala, Maharashtra
                     </p>
                     <p>Phone: <?= Yii::$app->params['landline_no'] ?>, <?= Yii::$app->params['mobile_no'] ?></p>
-                    <p>Email: <a href="mailto:contact@manasa.com" class="brand-color">contact@manasa.com</a></p>
+                    <p>Email: <a href="mailto:contact@manasarehab.com" class="brand-color">contact@manasarehab.com</a></p>
                 </div>
 
                 <!-- Working Hours -->
