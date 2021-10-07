@@ -38,7 +38,7 @@ $this->title = $model->name;
                     </div>
 
                     <!-- Button -->
-                    <?= Html::a('Book an Appointment', ['site/book-appointment', 'doctor_id' => $model->doctor_id], ['class' => 'btn btn-md btn-brand brand-hover']) ?>
+                    <?= Html::a('Book an Appointment', $model->appointment_link, ['class' => 'btn btn-md btn-brand brand-hover']) ?>
 
                 </div>
             </div>	<!-- END DOCTOR PHOTO -->

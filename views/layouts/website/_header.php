@@ -17,7 +17,7 @@ use yii\helpers\Html;
 
         </div>
         <div class="cta">
-            <?= Html::a('Get Appointment', ['site/book-appointment'], ['class' => 'scrollto']) ?>
+            <?= Html::a('Get Appointment', 'https://mannsparsh.com/site/book-appointment', ['class' => 'scrollto']) ?>
         </div>
     </div>
 </section>
