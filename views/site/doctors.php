@@ -1,25 +1,30 @@
 <?php
 /**
  * @var $this \yii\web\View
- * @var $model \yii\data\ActiveDataProvider;
+ * @var $model \yii\data\ActiveDataProvider
+ * @var $doctor \app\models\Doctors
  */
 
 use yii\helpers\Html;
 
 $this->title = "Meet the Doctor";
 
+$sections = [];
+foreach ($model->models as $doctor) {
+    $sections[$doctor->section_name][] = $doctor;
+}
 ?>
 
 <section id="team" class="team section-bg">
     <div class="container">
 
-        <div class="row">
+        <?php foreach ($sections as $section_name => $doctors): ?>
 
-                <?php
-                    /* @var $doctor \app\models\Doctors */
-                    foreach ($model->models as $doctor):
-                ?>
-                <div class="col-lg-3 col-md-6 d-flex align-items-stretch" data-aos="fade-up">
+            <h3 class="mb-5"><?= $section_name ?></h3>
+
+            <div class="row">
+                <?php foreach ($doctors as $doctor): ?>
+                    <div class="col-lg-3 col-md-6 d-flex align-items-stretch" data-aos="fade-up">
                     <a href="<?= \yii\helpers\Url::to(['site/doctor-details', 'id' => $doctor->doctor_id]) ?>">
                         <div class="member">
                             <div class="member-img">
@@ -38,9 +43,10 @@ $this->title = "Meet the Doctor";
                         </div>
                     </a>
                 </div>
-            <?php endforeach; ?>
+                <?php endforeach; ?>
+            </div>
 
-        </div>
+        <?php endforeach; ?>
 
     </div>
 </section>

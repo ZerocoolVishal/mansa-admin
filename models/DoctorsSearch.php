@@ -43,8 +43,8 @@ class DoctorsSearch extends Doctors
         $query = Doctors::find();
 
         // add conditions that should always apply here
-        $query->where(['is_deleted' => 0]);
-        $query->orderBy(['doctor_id' => SORT_DESC]);
+        $query->where(['is_deleted' => 0, 'is_active' => 1]);
+        $query->orderBy(['sort_order' => SORT_ASC]);
 
         $dataProvider = new ActiveDataProvider([
             'query' => $query,

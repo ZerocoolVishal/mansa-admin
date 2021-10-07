@@ -103,7 +103,10 @@ class AppHelpers
 
     public static function getFeaturedDoctors() {
 
-        return Doctors::findAll(['is_deleted' => 0, 'is_active' => 1, 'is_featured' => 1]);
+        return Doctors::find()
+            ->where(['is_deleted' => 0, 'is_active' => 1, 'is_featured' => 1])
+            ->orderBy(['sort_order' => SORT_ASC])
+            ->all();
     }
 
     public static function getDoctors() {
