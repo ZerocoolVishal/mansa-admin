@@ -10,8 +10,8 @@ use yii\helpers\Html;
     <div class="container d-flex">
         <div class="contact-info mr-auto">
             <ul>
-                <li><i class="icofont-envelope"></i><a href="mailto:contact@example.com"><?= Yii::$app->params['contact_email'] ?></a></li>
-                <li><i class="icofont-phone"></i> <?= Yii::$app->params['mobile_no'] ?></li>
+                <li><i class="icofont-envelope"></i><a href="mailto:<?= Yii::$app->params['contact_email'] ?>"><?= Yii::$app->params['contact_email'] ?></a></li>
+                <li><i class="icofont-phone"></i> <?= Yii::$app->params['mobile_numbers'] ?></li>
                 <li><i class="icofont-clock-time icofont-flip-horizontal"></i> <?= Yii::$app->params['timing'] ?></li>
             </ul>
 

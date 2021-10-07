@@ -123,15 +123,13 @@ $this->title = 'Home';
                                 <i class="bx bx-envelope"></i>
                                 <h3>Email Us</h3>
                                 <p><?= Yii::$app->params['contact_email'] ?></p>
-                                <p><?= Yii::$app->params['contact_email'] ?></p>
                             </div>
                         </div>
                         <div class="col-12 mt-4" data-aos="fade-up" data-aos-delay="200">
                             <div class="info-box">
                                 <i class="bx bx-phone-call"></i>
                                 <h3>Call Us</h3>
-                                <p><?= Yii::$app->params['mobile_no'] ?></p>
-                                <p><?= Yii::$app->params['landline_no'] ?></p>
+                                <p><?= Yii::$app->params['mobile_numbers'] ?></p>
                             </div>
                         </div>
                     </div>
