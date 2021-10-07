@@ -20,7 +20,7 @@ $doctors = \app\helpers\AppHelpers::getFeaturedDoctors();
 
             <?php foreach ($doctors as $doctor): ?>
                 <div class="col-lg-3 col-md-6 d-flex align-items-stretch" data-aos="fade-up">
-                    <a href="<?= \yii\helpers\Url::to(['site/doctor-details', 'id' => $doctor->doctor_id]) ?>">
+                    <a class="mx-auto" href="<?= \yii\helpers\Url::to(['site/doctor-details', 'id' => $doctor->doctor_id]) ?>">
                         <div class="member">
                             <div class="member-img">
                                 <?= Html::img("@web/uploads/$doctor->image", ['class' => 'img-fluid', 'alt' => '']) ?>
