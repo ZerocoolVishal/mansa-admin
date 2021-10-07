@@ -54,11 +54,7 @@ use yii\bootstrap4\Alert;
                 <!-- General Information -->
                 <div class="contact-box mb-40">
                     <h5 class="h5-sm dark-brand">General Information</h5>
-                    <p>Address: Near Swapn Nagari Homes,<br>
-                        Behind Pine Wood Resort,<br>
-                        Runde Village,<br>
-                        Titwala, Maharashtra
-                    </p>
+                    <p>Address: <?= Yii::$app->params['address'] ?></p>
                     <p>Phone: <?= Yii::$app->params['mobile_numbers'] ?></p>
                     <p>Email: <a href="mailto:<?= Yii::$app->params['contact_email'] ?>" class="brand-color"><?= Yii::$app->params['contact_email'] ?></a></p>
                 </div>
