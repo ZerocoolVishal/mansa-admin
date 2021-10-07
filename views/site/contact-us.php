@@ -8,6 +8,8 @@
 use yii\bootstrap4\ActiveForm;
 use yii\bootstrap4\Alert;
 
+$this->title = "Contact Us";
+
 ?>
 
 <!-- GOOGLE MAP

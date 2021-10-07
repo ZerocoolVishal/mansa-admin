@@ -7,6 +7,8 @@
 
 use yii\bootstrap4\Html;
 
+$this->title = "F.A.Q";
+
 ?>
 
 <!-- FAQs PAGE

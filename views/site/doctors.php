@@ -7,7 +7,7 @@
 
 use yii\helpers\Html;
 
-$this->title = "Meet the Doctor";
+$this->title = "Meet the Doctors";
 
 $sections = [];
 foreach ($model->models as $doctor) {
