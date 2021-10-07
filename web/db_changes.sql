@@ -71,3 +71,15 @@ ALTER TABLE `tbl_appointments` ADD `doctor_timing_id` INT NULL AFTER `doctor_id`
 ALTER TABLE `tbl_appointments` ADD FOREIGN KEY (`doctor_timing_id`) REFERENCES `tbl_doctor_timing`(`doctor_timing_id`) ON DELETE RESTRICT ON UPDATE RESTRICT;
 
 ALTER TABLE `tbl_admin` ADD `is_hidden` TINYINT(1) NOT NULL DEFAULT '0' AFTER `is_deleted`;
+
+
+/**
+  Date: 08-Oct-2021
+*/
+ALTER TABLE `tbl_doctors`
+    ADD `sort_order` INT NOT NULL DEFAULT '0' AFTER `is_featured`,
+    ADD `section_name` VARCHAR(255) NULL
+    AFTER `sort_order`,
+    ADD `appointment_link` VARCHAR(255) NOT NULL
+    AFTER `section_name`;
+

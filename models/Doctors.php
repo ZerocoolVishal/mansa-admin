@@ -15,10 +15,14 @@ use Yii;
  * @property string $image
  * @property string $education_training
  * @property int $is_featured
+ * @property int $sort_order
+ * @property string|null $section_name
+ * @property string $appointment_link
  * @property int $is_active
  * @property int $is_deleted
  *
- * @property DoctorCertificates[] $doctorCertificates
+ * @property DoctorCertificates[] $tblDoctorCertificates
+ * @property DoctorTiming[] $tblDoctorTimings
  */
 class Doctors extends \yii\db\ActiveRecord
 {
@@ -36,10 +40,10 @@ class Doctors extends \yii\db\ActiveRecord
     public function rules()
     {
         return [
-            [['name', 'sibtitle', 'short_about', 'long_about', 'image', 'education_training'], 'required'],
+            [['name', 'sibtitle', 'short_about', 'long_about', 'image', 'education_training', 'appointment_link'], 'required'],
             [['long_about', 'education_training'], 'string'],
-            [['is_featured', 'is_active', 'is_deleted'], 'integer'],
-            [['name', 'sibtitle', 'image'], 'string', 'max' => 255],
+            [['is_featured', 'sort_order', 'is_active', 'is_deleted'], 'integer'],
+            [['name', 'sibtitle', 'image', 'section_name', 'appointment_link'], 'string', 'max' => 255],
             [['short_about'], 'string', 'max' => 1000],
         ];
     }
@@ -58,6 +62,9 @@ class Doctors extends \yii\db\ActiveRecord
             'image' => 'Image',
             'education_training' => 'Education Training',
             'is_featured' => 'Featured',
+            'sort_order' => 'Sort Order',
+            'section_name' => 'Section Name',
+            'appointment_link' => 'Appointment Link',
             'is_active' => 'Active',
             'is_deleted' => 'Deleted',
         ];
@@ -71,5 +78,15 @@ class Doctors extends \yii\db\ActiveRecord
     public function getDoctorCertificates()
     {
         return $this->hasMany(DoctorCertificates::className(), ['doctor_id' => 'doctor_id']);
+    }
+
+    /**
+     * Gets query for [[TblDoctorTimings]].
+     *
+     * @return \yii\db\ActiveQuery
+     */
+    public function getDoctorTimings()
+    {
+        return $this->hasMany(DoctorTiming::className(), ['doctor_id' => 'doctor_id']);
     }
 }
