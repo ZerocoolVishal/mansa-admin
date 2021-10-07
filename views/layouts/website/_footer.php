@@ -22,29 +22,40 @@ use yii\helpers\Html;
                 <div class="col-lg-2 col-md-6 footer-links">
                     <h4>Useful Links</h4>
                     <ul>
-                        <li><i class="bx bx-chevron-right"></i>
+                        <li>
+                            <i class="bx bx-chevron-right"></i>
                             <?= Html::a('Home', ['site/index']) ?>
                         </li>
-                        <li><i class="bx bx-chevron-right"></i>
+                        <li>
+                            <i class="bx bx-chevron-right"></i>
                             <?= Html::a('About us', ['site/about-us']) ?>
                         </li>
-                        <li><i class="bx bx-chevron-right"></i>
-                            <?= Html::a('Services', ['site/services']) ?>
+                        <li>
+                            <i class="bx bx-chevron-right"></i>
+                            <a href="#">Terms of service</a></li>
+                        <li>
+                            <i class="bx bx-chevron-right"></i>
+                            <a href="#">Privacy policy</a>
                         </li>
-                        <li><i class="bx bx-chevron-right"></i> <a href="#">Terms of service</a></li>
-                        <li><i class="bx bx-chevron-right"></i> <a href="#">Privacy policy</a></li>
                     </ul>
                 </div>
 
                 <div class="col-lg-3 col-md-6 footer-links">
-<!--                    <h4>Our Services</h4>-->
-<!--                    <ul>-->
-<!--                        <li><i class="bx bx-chevron-right"></i> <a href="#">Web Design</a></li>-->
-<!--                        <li><i class="bx bx-chevron-right"></i> <a href="#">Web Development</a></li>-->
-<!--                        <li><i class="bx bx-chevron-right"></i> <a href="#">Product Management</a></li>-->
-<!--                        <li><i class="bx bx-chevron-right"></i> <a href="#">Marketing</a></li>-->
-<!--                        <li><i class="bx bx-chevron-right"></i> <a href="#">Graphic Design</a></li>-->
-<!--                    </ul>-->
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li>
+                            <i class="bx bx-chevron-right"></i>
+                            <a href="https://mannsparsh.com" target="_blank">Mannsparsh Neuropsychiatric Center and Nursing Home</a>
+                        </li>
+                        <li>
+                            <i class="bx bx-chevron-right"></i>
+                            <a href="https://www.manavneuropsychiatry.in" target="_blank">Manav Neuro Psychiatric Hospitals</a>
+                        </li>
+                        <li>
+                            <i class="bx bx-chevron-right"></i>
+                            <a href="https://www.manobal.in" target="_blank">MANOBAL Neuropsychiatry  & Sexology Clinic</a>
+                        </li>
+                    </ul>
                 </div>
 
                 <div class="col-lg-4 col-md-6 footer-newsletter">
