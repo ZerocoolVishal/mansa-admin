@@ -149,6 +149,14 @@
     object-fit: cover !important;
 }
 
+.services .icon {
+    background: #064887 !important;
+}
+
+.services .icon img {
+    width: 60%;
+}
+
 .services .icon-box {
     height: 220px !important;
 }
