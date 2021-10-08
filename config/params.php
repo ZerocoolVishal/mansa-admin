@@ -11,6 +11,6 @@ return [
     'contact_email' => 'rehabmanasa@gmail.com',
     'contact_email2' => 'contact@manasarehab.com',
     'timing' => '24x7',
-    'address' => 'Manasa rehabilitation center,<br> Near Swapn Nagari Homes,<br> Behind Pine Wood Resort,<br> Runde Village,<br> Titwala, Maharashtra ',
+    'address' => 'Manasa Rehabilitation Center,<br> Near Swapn Nagari Homes,<br> Runda Falegaon Road,<br> Titwala (East), Maharashtra.',
     'name' => 'Manasa Rehabilitation and De-addiction Center'
 ];

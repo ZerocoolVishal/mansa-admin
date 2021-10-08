@@ -34,7 +34,7 @@
             <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="300">
                 <div class="icon-box">
                     <div class="icon"><img src="https://i.ibb.co/wJDP0z3/massage.png" alt="massage" border="0"></div>
-                    <h4 class="title"><a href="">Psychiatric rehabilitation in place of</a></h4>
+                    <h4 class="title"><a href="">Psychiatric rehabilitation</a></h4>
                     <p class="description">Functional recovery in chronic psychiatric patients through psychosocial rehabilitation.</p>
                 </div>
             </div>

@@ -105,7 +105,7 @@ $this->title = 'Home';
 
             <div class="section-title">
                 <h2 data-aos="fade-up">Contact</h2>
-                <p data-aos="fade-up">Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
+                <p data-aos="fade-up">We are at your service 24/7. Please feel free to call or visit as per your convenience.</p>
             </div>
 
             <div class="row">
