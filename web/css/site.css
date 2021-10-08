@@ -161,6 +161,10 @@
     height: 220px !important;
 }
 
+.doctor-item {
+    width: 250px;
+}
+
 @media (max-width: 767px) {
     .wsmobileheader .smllogo {
         margin-top: 0px !important;

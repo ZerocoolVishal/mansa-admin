@@ -25,16 +25,10 @@ foreach ($model->models as $doctor) {
             <div class="row">
                 <?php foreach ($doctors as $doctor): ?>
                     <div class="col-lg-3 col-md-6 d-flex align-items-stretch" data-aos="fade-up">
-                    <a href="<?= \yii\helpers\Url::to(['site/doctor-details', 'id' => $doctor->doctor_id]) ?>">
+                    <a class="doctor-item mx-auto" href="<?= \yii\helpers\Url::to(['site/doctor-details', 'id' => $doctor->doctor_id]) ?>">
                         <div class="member">
                             <div class="member-img">
                                 <?= Html::img("@web/uploads/$doctor->image", ['class' => 'img-fluid', 'alt' => '']) ?>
-                                <!--<div class="social">-->
-                                <!--    <a href=""><i class="icofont-twitter"></i></a>-->
-                                <!--    <a href=""><i class="icofont-facebook"></i></a>-->
-                                <!--    <a href=""><i class="icofont-instagram"></i></a>-->
-                                <!--    <a href=""><i class="icofont-linkedin"></i></a>-->
-                                <!--</div>-->
                             </div>
                             <div class="member-info">
                                 <h4><?= Html::encode($doctor->name) ?></h4>
