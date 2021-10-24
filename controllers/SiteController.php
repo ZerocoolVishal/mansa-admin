@@ -142,6 +142,16 @@ class SiteController extends Controller
     }
 
     /**
+     * Gallery page.
+     *
+     * @return string
+     */
+    public function actionGallery()
+    {
+        return $this->render('gallery');
+    }
+
+    /**
      * Blogs about page.
      *
      * @return string

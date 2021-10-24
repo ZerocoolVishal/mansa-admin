@@ -14,7 +14,6 @@ use yii\helpers\Html;
                 <li><i class="icofont-phone"></i> <?= Yii::$app->params['mobile_numbers'] ?></li>
                 <li><i class="icofont-clock-time icofont-flip-horizontal"></i> <?= Yii::$app->params['timing'] ?></li>
             </ul>
-
         </div>
         <div class="cta">
             <?= Html::a('Get Appointment', 'https://mannsparsh.com/site/book-appointment', ['class' => 'scrollto']) ?>
@@ -43,6 +42,7 @@ use yii\helpers\Html;
                     ['label' => 'About', 'url' => ['/site/about-us']],
 //                    ['label' => 'Services', 'url' => ['/site/services']],
                     ['label' => 'Doctors', 'url' => ['/site/doctors']],
+                    ['label' => 'Gallery', 'url' => ['/site/gallery']],
 //                    ['label' => 'Blogs', 'url' => ['/site/blogs']],
                     ['label' => 'FAQs', 'url' => ['/site/faq']],
                     ['label' => 'Contact Us', 'url' => ['/site/contact-us']],
