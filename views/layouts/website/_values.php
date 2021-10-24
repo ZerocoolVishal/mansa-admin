@@ -6,31 +6,31 @@ use yii\helpers\Html;
 $ourMissionList = [
     [
         'title' => '',
-        'image' => '@web/images/hospital/WA0004.jpg',
+        'image' => '@web/images/hospital/rejuvenate-patient-lives-through-full-participation.jpeg',
         'text' => 'To rejuvenate the patients’ lives with their full participation through multidisciplinary approach.',
         'url' => ''
     ],
     [
         'title' => '',
-        'image' => '@web/images/hospital/WA0026.jpg',
+        'image' => '@web/images/hospital/equal-opportunity.jpeg',
         'text' => 'Providing equal opportunities to physically and mentally challenged for growth and reintegration in society.',
         'url' => ''
     ],
     [
         'title' => '',
-        'image' => '@web/images/hospital/WA0027.jpg',
+        'image' => '@web/images/hospital/fight-against-drug-addiction.jpeg',
         'text' => 'To fight against menace of drug addiction (Manasa warriors).',
         'url' => ''
     ],
     [
         'title' => '',
-        'image' => '@web/images/hospital/WA0029.jpg',
+        'image' => '@web/images/hospital/protect-rights-of-mentally-ill.jpeg',
         'text' => 'To rehabilitate and protect rights of mentally ill and dementia patients by improving functional quality of life.',
         'url' => ''
     ],
     [
         'title' => '',
-        'image' => '@web/images/hospital/WA0030.jpg',
+        'image' => '@web/images/hospital/create-awareness-in-society.jpeg',
         'text' => 'To create awareness in society about psychiatry as a neuroscience through integration of art and science (Bio psychosocial model).',
         'url' => ''
     ],
